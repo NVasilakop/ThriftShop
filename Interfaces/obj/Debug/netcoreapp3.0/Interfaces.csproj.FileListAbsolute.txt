@@ -1,0 +1,8 @@
+C:\Users\USER\source\repos\ThriftShop\Interfaces\bin\Debug\netcoreapp3.0\Interfaces.deps.json
+C:\Users\USER\source\repos\ThriftShop\Interfaces\bin\Debug\netcoreapp3.0\Interfaces.dll
+C:\Users\USER\source\repos\ThriftShop\Interfaces\obj\Debug\netcoreapp3.0\Interfaces.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\ThriftShop\Interfaces\obj\Debug\netcoreapp3.0\Interfaces.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\ThriftShop\Interfaces\obj\Debug\netcoreapp3.0\Interfaces.AssemblyInfo.cs
+C:\Users\USER\source\repos\ThriftShop\Interfaces\bin\Debug\netcoreapp3.0\Interfaces.pdb
+C:\Users\USER\source\repos\ThriftShop\Interfaces\obj\Debug\netcoreapp3.0\Interfaces.dll
+C:\Users\USER\source\repos\ThriftShop\Interfaces\obj\Debug\netcoreapp3.0\Interfaces.pdb
