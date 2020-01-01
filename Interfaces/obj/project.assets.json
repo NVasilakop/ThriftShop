@@ -238,6 +238,19 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.0"
+        },
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
       }
     }
   },
@@ -693,11 +706,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "Microsoft.EntityFrameworkCore >= 3.1.0"
+      "Microsoft.EntityFrameworkCore >= 3.1.0",
+      "Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -729,7 +748,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\USER\\source\\repos\\ThriftShop\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\USER\\source\\repos\\ThriftShop\\Models\\Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

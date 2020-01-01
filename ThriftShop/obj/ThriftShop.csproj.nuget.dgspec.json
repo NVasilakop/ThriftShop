@@ -29,7 +29,11 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\USER\\source\\repos\\ThriftShop\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\USER\\source\\repos\\ThriftShop\\Models\\Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -254,6 +258,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",

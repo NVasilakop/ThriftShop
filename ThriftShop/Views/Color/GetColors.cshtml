@@ -1,0 +1,14 @@
+﻿@model List<Color>
+
+@using (Html.BeginForm())
+{
+    <p>
+        Find by name: @Html.TextBox("ColorCode")
+        <input type="submit" value="Search" />
+    </p>
+}
+
+    @foreach (Color color in Model)
+    {
+        <p>@color.Code</p>
+    }

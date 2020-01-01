@@ -29,7 +29,11 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\USER\\source\\repos\\ThriftShop\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\USER\\source\\repos\\ThriftShop\\Models\\Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

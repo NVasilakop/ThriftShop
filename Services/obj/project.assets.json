@@ -280,7 +280,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.0"
+          "Microsoft.EntityFrameworkCore": "3.1.0",
+          "Models": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Interfaces.dll": {}
