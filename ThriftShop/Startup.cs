@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Threading.Tasks;
+using Facade;
 using Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -29,6 +30,10 @@ namespace ThriftShop
             services.AddControllersWithViews();
 
             services.AddScoped<IColorService,ColorService>();
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IProductDetailsService, ProductDetailsService>();
+            services.AddScoped<ICategoryService,CategoryService>();
+            services.AddScoped<IProductFacade,ProductFacade>();
             services.AddDbContext<ThriftShopContext>(opts => opts.UseSqlServer(Configuration.GetConnectionString("ThiftShopDb"),b => b.MigrationsAssembly("ThriftShop")));
             services.AddControllers();
         }

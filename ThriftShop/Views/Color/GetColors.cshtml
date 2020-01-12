@@ -7,8 +7,21 @@
         <input type="submit" value="Search" />
     </p>
 }
-
-    @foreach (Color color in Model)
-    {
-        <p>@color.Code</p>
-    }
+<table class="table ">
+    <thead>
+        <tr>
+            <th scope="col">Code</th>
+            <th scope="col">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Color color in Model)
+        {
+            <tr>
+                <td>@color.Code</td>
+                <td>@color.Description</td>
+            </tr>
+        }
+    </tbody>
+</table>
+  

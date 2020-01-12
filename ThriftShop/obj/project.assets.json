@@ -2584,6 +2584,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Facade/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Facade.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Facade.dll": {}
+        }
+      },
       "Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
@@ -8344,6 +8357,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Facade/1.0.0": {
+      "type": "project",
+      "path": "../Facade/Facade/Facade.csproj",
+      "msbuildProject": "../Facade/Facade/Facade.csproj"
+    },
     "Interfaces/1.0.0": {
       "type": "project",
       "path": "../Interfaces/Interfaces.csproj",
@@ -8362,6 +8380,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "Facade >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.0",
@@ -8401,6 +8420,9 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
+            "C:\\Users\\USER\\source\\repos\\ThriftShop\\Facade\\Facade\\Facade.csproj": {
+              "projectPath": "C:\\Users\\USER\\source\\repos\\ThriftShop\\Facade\\Facade\\Facade.csproj"
+            },
             "C:\\Users\\USER\\source\\repos\\ThriftShop\\Services\\Services.csproj": {
               "projectPath": "C:\\Users\\USER\\source\\repos\\ThriftShop\\Services\\Services.csproj"
             }

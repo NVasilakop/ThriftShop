@@ -18,7 +18,7 @@ namespace Services
         public DbSet<ProductDetails> ProductDetails { get; set; }
         public DbSet<Color> Colors { get; set; }
         public DbSet<Category> Categories { get; set; }
-
+        public DbSet<ProductImage> ProductImages { get; set; }
 
 
     }

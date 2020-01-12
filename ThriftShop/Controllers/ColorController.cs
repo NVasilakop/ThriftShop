@@ -18,10 +18,15 @@ namespace ThriftShop.Controllers
             //colorService.AddColor(new Color { ColorId = Guid.NewGuid(), Code = "#00FFFF", Description = "Cyan_HTMLColorCode" });
             //colorService.AddColor(new Color { ColorId = Guid.NewGuid(), Code = "#FF00FF", Description = "Magenta_HTMLColorCode" });
         }
-        public ViewResult AddColor()
+
+        public ActionResult AddColor(Color color)
         {
-            //colorService.AddColor(new Color {ColorId =Guid.NewGuid(), Code = "1231", Description = "whatever" });
-            return View();
+            var colorSearched = colorService.GetColors(color.Code);
+            if (colorSearched.Count == 0)
+            {
+                colorService.AddColor(new Color { ColorId = Guid.NewGuid(), Code = color.Code, Description = color.Description });
+            }
+            return View(color);
         }
 
         public ViewResult GetColors(string colorCode)

@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThriftShop", "ThriftShop.csproj", "{071A584A-4411-41F5-BB9D-501A7AC9C084}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThriftShop", "ThriftShop.csproj", "{071A584A-4411-41F5-BB9D-501A7AC9C084}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "..\Models\Models.csproj", "{466D2ECE-5855-4D97-A96C-D7111191C494}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "..\Models\Models.csproj", "{466D2ECE-5855-4D97-A96C-D7111191C494}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "..\Interfaces\Interfaces.csproj", "{55837FFB-5D70-4407-B3C1-3BE46ACD7CFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "..\Interfaces\Interfaces.csproj", "{55837FFB-5D70-4407-B3C1-3BE46ACD7CFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "..\Services\Services.csproj", "{DD394AA2-7ADC-47D8-A625-FD1FDDEF42EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "..\Services\Services.csproj", "{DD394AA2-7ADC-47D8-A625-FD1FDDEF42EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "..\Facade\Facade\Facade.csproj", "{4A23CDB2-B4DC-44F2-9978-833FACEC6305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformations", "..\Transformations\Transformations\Transformations.csproj", "{C5A67F20-4ADE-4498-9675-29C1F3E78AAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{DD394AA2-7ADC-47D8-A625-FD1FDDEF42EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD394AA2-7ADC-47D8-A625-FD1FDDEF42EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD394AA2-7ADC-47D8-A625-FD1FDDEF42EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A23CDB2-B4DC-44F2-9978-833FACEC6305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A23CDB2-B4DC-44F2-9978-833FACEC6305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A23CDB2-B4DC-44F2-9978-833FACEC6305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A23CDB2-B4DC-44F2-9978-833FACEC6305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A67F20-4ADE-4498-9675-29C1F3E78AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A67F20-4ADE-4498-9675-29C1F3E78AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A67F20-4ADE-4498-9675-29C1F3E78AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A67F20-4ADE-4498-9675-29C1F3E78AAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

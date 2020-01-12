@@ -11,10 +11,13 @@ namespace Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid ProductDetailsId { get; set; }
+        public string Description { get; set; }
+        public Guid? ProductImageId { get; set; }
         public Guid ProductId { get; set; }
         public Guid ColorId { get; set; }
 
         public Color Color { get; set; }
         public Product Product { get; set; }
+        public ProductImage ProductImage { get; set; }
     }
 }

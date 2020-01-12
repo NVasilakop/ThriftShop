@@ -78,7 +78,13 @@ namespace ThriftShop.Migrations
                     b.Property<Guid>("ColorId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<Guid>("ProductId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("ProductImageId")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("ProductDetailsId");
@@ -87,7 +93,23 @@ namespace ThriftShop.Migrations
 
                     b.HasIndex("ProductId");
 
+                    b.HasIndex("ProductImageId");
+
                     b.ToTable("ProductDetails");
+                });
+
+            modelBuilder.Entity("Models.ProductImage", b =>
+                {
+                    b.Property<Guid>("ProductImageId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<byte[]>("Image")
+                        .HasColumnType("varbinary(max)");
+
+                    b.HasKey("ProductImageId");
+
+                    b.ToTable("ProductImage");
                 });
 
             modelBuilder.Entity("Models.Product", b =>
@@ -112,6 +134,10 @@ namespace ThriftShop.Migrations
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("Models.ProductImage", "ProductImage")
+                        .WithMany()
+                        .HasForeignKey("ProductImageId");
                 });
 #pragma warning restore 612, 618
         }

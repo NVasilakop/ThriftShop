@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Facade\Facade\Facade.csproj" />
     <ProjectReference Include="..\Services\Services.csproj" />
   </ItemGroup>
 

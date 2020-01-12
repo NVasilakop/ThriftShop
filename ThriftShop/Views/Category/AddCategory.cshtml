@@ -1,0 +1,22 @@
+﻿
+@model Category
+
+@using (Html.BeginForm())
+{
+    <table cellpadding="0" cellspacing="0">
+        <tr>
+            <th colspan="2" align="center">Category Description</th>
+        </tr>
+        <tr>
+            <td>Description: </td>
+            <td>
+                @Html.TextBoxFor(m => m.Description)
+                @*,new { @Value =@Model.Code, @required  = "required"}*@
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Submit" /></td>
+        </tr>
+    </table>
+}

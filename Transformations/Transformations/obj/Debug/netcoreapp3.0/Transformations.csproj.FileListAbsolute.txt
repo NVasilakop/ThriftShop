@@ -1,0 +1,8 @@
+C:\Users\USER\source\repos\ThriftShop\Transformations\Transformations\bin\Debug\netcoreapp3.0\Transformations.deps.json
+C:\Users\USER\source\repos\ThriftShop\Transformations\Transformations\bin\Debug\netcoreapp3.0\Transformations.dll
+C:\Users\USER\source\repos\ThriftShop\Transformations\Transformations\bin\Debug\netcoreapp3.0\Transformations.pdb
+C:\Users\USER\source\repos\ThriftShop\Transformations\Transformations\obj\Debug\netcoreapp3.0\Transformations.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\ThriftShop\Transformations\Transformations\obj\Debug\netcoreapp3.0\Transformations.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\ThriftShop\Transformations\Transformations\obj\Debug\netcoreapp3.0\Transformations.AssemblyInfo.cs
+C:\Users\USER\source\repos\ThriftShop\Transformations\Transformations\obj\Debug\netcoreapp3.0\Transformations.dll
+C:\Users\USER\source\repos\ThriftShop\Transformations\Transformations\obj\Debug\netcoreapp3.0\Transformations.pdb
